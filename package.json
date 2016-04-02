@@ -1,0 +1,23 @@
+{
+  "name": "simple_request",
+  "version": "1.0.0",
+  "description": "Promisefied version of the Request package",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec"
+  },
+  "author": "Daniel Pedroso <daniel.exe@gmail.com>",
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
+  }
+}
