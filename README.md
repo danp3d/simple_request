@@ -13,7 +13,7 @@ Usage:
     
     const simple_request = require('simple_request')
 
-    request('http://jsonplaceholder.typicode.com/posts/1', { json: true }).then((res) => {
+    simple_request('http://jsonplaceholder.typicode.com/posts/1', { json: true }).then((res) => {
         let response = res[0]
         let body = res[1]
         
