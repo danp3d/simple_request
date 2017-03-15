@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Promisefied version of the Request package",
   "main": "index.js",
-  "private": true,
   "directories": {
     "test": "test"
   },
